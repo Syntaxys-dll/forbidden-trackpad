@@ -8,6 +8,8 @@ It remembers one selected Bluetooth device. When this Mac locks or sleeps, the a
 
 No network, no accounts, no analytics. The app is intentionally narrow: one selected Bluetooth address, one job.
 
+**Important:** after unlocking a Mac, wake the trackpad by toggling its physical power switch off and on. This is the small switch on the back edge of the Magic Trackpad. It brings the trackpad back on air after it has been forgotten by both Macs.
+
 ## Download
 
 Download the latest DMG from [GitHub Releases](https://github.com/Syntaxys-dll/forbidden-trackpad/releases/latest):

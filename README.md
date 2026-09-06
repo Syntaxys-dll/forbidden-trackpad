@@ -155,8 +155,16 @@ build/ForbiddenTrackpad.app
 To create a DMG manually:
 
 ```sh
-tmpdir="$(mktemp -d /tmp/forbidden-trackpad-dmg.XXXXXX)"
-ditto "build/ForbiddenTrackpad.app" "$tmpdir/ForbiddenTrackpad.app"
-ln -s /Applications "$tmpdir/Applications"
-hdiutil create -volname "Forbidden Trackpad" -srcfolder "$tmpdir" -ov -format UDZO "build/ForbiddenTrackpad.dmg"
+./Scripts/create_dmg.sh
 ```
+
+## Release
+
+GitHub Releases are created from version tags. To publish a new release:
+
+```sh
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+The GitHub Actions release workflow builds `ForbiddenTrackpad.app`, creates `ForbiddenTrackpad.dmg`, and attaches the DMG to the release.

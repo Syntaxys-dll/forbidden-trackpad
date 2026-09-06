@@ -1,0 +1,17 @@
+.DS_Store
+
+# Build artifacts
+build/
+*.dmg
+*.app
+*.icns
+
+# Xcode / macOS local state
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.swp

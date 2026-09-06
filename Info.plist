@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleExecutable</key>
+  <string>ForbiddenTrackpad</string>
+  <key>CFBundleIdentifier</key>
+  <string>app.forbiddentrackpad.ForbiddenTrackpad</string>
+  <key>CFBundleIconFile</key>
+  <string>AppIcon</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>Forbidden Trackpad</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>0.1.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>13.0</string>
+  <key>NSPrincipalClass</key>
+  <string>NSApplication</string>
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>Forbidden Trackpad needs Bluetooth access to connect and disconnect only the selected trackpad.</string>
+</dict>
+</plist>

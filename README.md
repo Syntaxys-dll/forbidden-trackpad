@@ -8,6 +8,14 @@ It remembers one selected Bluetooth device. When this Mac locks or sleeps, the a
 
 No network, no accounts, no analytics. The app is intentionally narrow: one selected Bluetooth address, one job.
 
+## Download
+
+Download the latest DMG from [GitHub Releases](https://github.com/Syntaxys-dll/forbidden-trackpad/releases/latest):
+
+[Download ForbiddenTrackpad.dmg](https://github.com/Syntaxys-dll/forbidden-trackpad/releases/latest/download/ForbiddenTrackpad.dmg)
+
+![Forbidden Trackpad app window](Assets/Screenshot.png)
+
 ## Why This Exists
 
 This app is for a very specific desk setup:
